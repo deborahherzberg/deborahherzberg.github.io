@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Cabin');
+.mb-10{
+	margin-bottom: 10px !important;
+}
+.mt-10{
+	margin-top: 10px !important;
+}
+.ml-1 {
+  margin-left: ($spacer * 1) !important;
+}
+.custom-header{
+	background-color: #f1fffd;
+	font-family: "EB Garamond"
+}
+.custom-navbar{
+	background-color: #f1fffd;
+	font-family: "EB Garamond", serif
+}
+.custom-button{
+	color:black;
+	white-space: normal;
+	word-wrap: break-word;
+	font-family: "Cabin"
+}
+.resize{
+	height: 40px;
+	width: auto;
+}
+.resize-flags{
+	width: 40px;
+	height: 26px;
+}
+.content{
+	font-size: 10pt;
+	font-family: "Cabin"
+}
+.card-title{
+	margin: 0;
+}
+.custom-footer{
+	background-color: #f1fffd;
+}
+.no-border{
+	border: none;
+}
+.word-break{
+	white-space: normal;
+	word-wrap: break-word;
+}
+.italics{
+	font-style: italic;
+}

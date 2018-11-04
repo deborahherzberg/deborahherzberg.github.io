@@ -6,13 +6,17 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link href="./css/website.css" rel="stylesheet" />
 </head>
 <body>
 
-  <nav class="navbar navbar-light bg-light">
+  <nav class="custom-navbar">
       <div class="container">
-        <a class="navbar-brand">Deborah Herzberg</a>
+        <a class="navbar-brand">
+        	<h1>Deborah Herzberg</h1>
+        	</a>
       </div>
     </nav>
 
@@ -20,21 +24,27 @@
 		<div class="row">
 			
 			<div class="col-md-4">
-				<div class="card text-center">
+				<div class="card text-center mt-10 mb-10 no-border">
 		            <div class="card-block">
-		              <img class= "rounded-circle" src="./img/photo.jpeg">
-		              <h4 class="card-title">Deborah Herzberg</h4>
-		              <p class="card-text">
-		              </p>
+		              <img class= "rounded-circle mt-10" src="./img/photo.jpeg">
             		</div>
             	</div>
-            	<div class="card">
-		            <div class="card-block">
+            	<div class="card-footer custom-footer border rounded">
+	            	<div align="center">
+	            		<a href="https://www.linkedin.com/in/deborah-herzberg-20250a150/"><img src="./img/linkedin.png" class="resize"></a>
+	              		<a href="https://www.facebook.com/deborah.herzberg.9?ref=bookmarks"><img type="image/svg+xml" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" class="resize"></a>
+	              		<a href="https://www.instagram.com/deborahherzberg/">
+	               		 	<img type="image/svg+xml" src="./img/instagram.svg" class="resize"></img>
+	              		</a>
+	              	</div>
+            	</div>
+            	<div class="card word-break mt-10">
+		            <div class="card-block ml-1 mt-10 content">
 		              <p>
 		                deborah.herzberg.official@gmail.com 
 		              </p>
 		              <p>
-		                0447747094605
+		                044 7747 094605
 		              </p>
 		              <p>
 		                London, UK
@@ -43,48 +53,55 @@
 		         </div>
 
 		         <div class="card">
-		         	<div class="card-title">
-		         		<h4>Languages</h4>
+		         	<div class="card-title ml-1 mt-10">
+			              <p>
+			                <img src="./img/united-kingdom-flag.png" class="resize-flags">
+			                English <small>native speaker</small>
+			              </p>
+			              <p>
+			                <img src="./img/france-flag.png" class="resize-flags">
+			              	French <small>native speaker</small>
+			              </p>
+			              <p>
+			                <img src="./img/spain-flag.png" class="resize-flags">
+			              	Spanish <small>intermediate</small>
+			              </p>
 		         	</div>
 		         </div>
 			</div>	
 			
 			<div class="col-md-8">
 
-				<div class="card">
-		            <div class="card-block">
-		              <h4 class="card-title">About me</h4>
-		              <p class="card-text">
-		              </p>
-		            </div>
-		         </div>
-
-		        <div class="card">
+		        <div class="card mb-10 mt-10">
 		           
-		           <h4 class="card-title">Education</h4>
+		           <div class="card-header custom-header">
+					<h4 class="card-title ml-1">Education</h4>
+					</div>
 
-		           	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#LSE" aria-expanded="false" aria-controls="#LSE">
+		           	<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#LSE" aria-expanded="false" aria-controls="#LSE">
+		           	<img src="./img/LSE.jpg" class="resize">
 		           	<strong>LSE</strong>
 		           	<small>2018-2019</small>
 		       		</button>
 
 			        <div class="collapse" id="LSE">   
 			            <div class="card-block">
-			              	<p class="card-text">
+			              	<p class="content mt-10">
 				                1 year intensive programme focusing on Business Management and Strategy 
 								<br> Courses include: Operations and Managerial Economics, Business Analysis, Marketing Management and Managerial Finance 
 			              	</p>
 			            </div>
 		            </div>
 
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Cambridge" aria-expanded="false" aria-controls="#Cambridge">
+					<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#Cambridge" aria-expanded="false" aria-controls="#Cambridge">
+		           	<img src="./img/Cambridge.png" class="resize">
 		           	<strong>University of Cambridge</strong>
 		           	<small>2015-2018</small>
 		       		</button>
 
 		            <div class="collapse" id="Cambridge">   
 			            <div class="card-block">
-			              	<p class="card-text">
+			              	<p class="content mt-10">
 				                Achieved first in all 3 years (elected to the title of Foundational Scholar of the college)
 			              	</p>
 			            </div>
@@ -92,21 +109,23 @@
 
 		        </div>
 
-		        <div class="card">
+		        <div class="card mb-10">
 
+					<div class="card-header custom-header">
+					<h4 class="card-title ml-1">Work Experience</h4>
+					</div>
 
-					<h4 class="card-title">Work Experience</h4>
-
-		           	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#IpsosMori" aria-expanded="false" aria-controls="#IpsosMori">
+		           	<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#IpsosMori" aria-expanded="false" aria-controls="#IpsosMori">
+		           	<img src="./img/Ipsos.png" class="resize">
 		           	<strong>Ipsos Mori</strong>
 		           	<small>July - August 2018</small>
 		       		</button>
 
 			        <div class="collapse" id="IpsosMori">   
 			            <div class="card-block">
-			              	<p class="card-text">
-				             Fast Moving Consumer Goods Company – Market Understanding Project
-				             <ul>
+			              	<p class="content mt-10 italics ml-1">
+				             Fast Moving Consumer Goods Company – Market Understanding Project</p>
+				             <ul class="content mt-10">
 				             	<li>Worked effectively as part of a team of 3 researchers to execute the project, also collaborating successfully with a team in Argentina and with Ipsos Interactive Services</li>
 				             	<li>Built awareness of client’s business environment in Argentina and current industry issues using desk research and previous Ipsos reports</li>
 				             	<li>Helped elaborate non-standard questionnaire from scratch</li>
@@ -115,59 +134,75 @@
 				            	<li>Client Relationship: Sent weekly update to client, participated in client meeting, liaised with client when research manager was absent</li>
 				            	<li>Developed understanding of different sampling approaches and their impact on weighting Contributed to discussions to find a solution to sampling and representation issues faced</li>
 				             </ul> 
-				             Fast Moving Consumer Good Company – Concept Test Proposal
-				             <ul>
+				             <p class="content mt-10 italics ml-1"> Fast Moving Consumer Good Company – Concept Test Proposal </p>
+				             <ul class="content mt-10">
 				             	<li>Created slides presenting key research objectives, Ipsos methodology and deliverables for the proposal</li>
 				             	<li>Summarised previously undertaken qualitative research</li>
+				             	<li>Proposal was won, and the project commissioned</li>
+				             </ul>
+				             <p class="content mt-10 italics ml-1"> Innovation projects </p>
+				             <ul class="content mt-10">
+				             	<li>Summarised findings from video interviews on project to implement Virtual Reality in Market Research</li>
+				             	<li>Took part in a pilot to gather cultural intelligence via Social Media</li>
+				             	<li>Learned how to use Synthesio for monitoring and analysing digital conversations and media</li>
 				             </ul>
 			              	</p>
 			            </div>
 		            </div>
 
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#IpsosFrance" aria-expanded="false" aria-controls="#IpsosFrance">
+					<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#IpsosFrance" aria-expanded="false" aria-controls="#IpsosFrance">
+		           	<img src="./img/Ipsos.png" class="resize">
 		           	<strong>Ipsos France</strong>
 		           	<small>July 2016</small>
 		       		</button>
 
 		            <div class="collapse" id="IpsosFrance">   
 			            <div class="card-block">
-			              	<p class="card-text">
-				                Assistant of Market Researchers
+			              	<p class="content mt-10 italics ml-1">
+				                Fast Moving Consumer Goods Company - Concept Test Project
+				                <ul class="content mt-10">
+				                	<li>Preliminary conclusions on the quantitative data collected to guide company on product development</li>
+				                	<li>Compared pricing of new products vs competition. Recommended to lower the price to be more competitive</li>
+				                	<li>Combined qualitative and quantitative data on product and package testing for the final report presentation</li>
+				                </ul>
 			              	</p>
 			            </div>
 		            </div>
 		            
 		        </div>
 
-		        <div class="card">
+		        <div class="card mb-10">
 		            
-					<h4 class="card-title">Positions of Responsibility</h4>
+					<div class="card-header custom-header">
+					<h4 class="card-title ml-1">Positions of Responsibility</h4>
+					</div>
 
-		           	<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Merch" aria-expanded="false" aria-controls="#Merch">
+		           	<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#Merch" aria-expanded="false" aria-controls="#Merch">
+		           	<img src="./img/stash.png" class="resize">
 		           	<strong>Merchandise Officer - Cambridge University Jewish Society </strong>
 		           	<small>2018</small>
 		       		</button>
 
 			        <div class="collapse" id="Merch">   
 			            <div class="card-block">
-			              	<p class="card-text">
-				            <ul>
+			              	<p class="content mt-10">
+				            <ul class="content mt-10">
 				            	<li>Designed a new logo for the society using computer graphics skills</li>
 				            	<li>Marketed society clothing through Social Media and created online order form for personalisation, selling £323 of jumpers and t-shirts</li>
 				            </ul>
 			              	</p>
 			            </div>
 		            </div>
-
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Pres" aria-expanded="false" aria-controls="#Pres">
+					<button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#Pres" aria-expanded="false" aria-controls="#Pres">
+		           	<img src="./img/logo-downing-college.png" class="resize">
 		           	<strong>President of the Maitland History Society – Downing College </strong>
 		           	<small>2017-2018</small>
 		       		</button>
 
 		            <div class="collapse" id="Pres">   
 			            <div class="card-block">
-			              	<p class="card-text">
-				                <ul>
+			              	<p class="content mt-10">
+				                <ul class="content mt-10">
 				                	<li>
 				                		Led the team to organise talks with leading academics
 				                	</li>
@@ -182,7 +217,8 @@
 			            </div>
 		            </div>
 
-		            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Sec" aria-expanded="false" aria-controls="#Sec">
+		            <button class="btn btn-outline-light custom-button" type="button" data-toggle="collapse" data-target="#Sec" aria-expanded="false" aria-controls="#Sec">
+		           <img src="./img/logo-downing-college.png" class="resize">
 		           	<strong>Secretary of the Maitland History Society– Downing College </strong>
 		           	<small>2017-2018</small>
 		       		</button>
@@ -190,7 +226,7 @@
 		            <div class="collapse" id="Sec">   
 			            <div class="card-block">
 			              	<p class="card-text">
-			              		<ul>
+			              		<ul class="content mt-10">
 			              			<li>Liaised with speakers and catering to organise talks, receptions and dinners</li>
 			              			<li>Led initiative to diversify speakers, achieving gender parity after only male speakers the year before </li>
 			              		</ul>
